@@ -1,0 +1,176 @@
+/* ---------------------------- Start Global ---------------------------------------- */
+body {
+  margin: 0;
+}
+.clr-fix {
+  clear: both;
+}
+.btn {
+  padding: 10px 24px;
+  background-color: transparent;
+  border: solid 3px #ea2a3d;
+  color: #ea2a3d;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #ea2a3d;
+}
+p{
+    line-height: 27px;
+}
+/* ---------------------------- End Global ---------------------------------------- */
+
+/* ---------------------------- Start Home ---------------------------------------- */
+.home {
+  height: 100vh;
+  background-color: #f6f2ea;
+  background-image: linear-gradient(
+      rgb(246 242 234/ 0.7),
+      rgb(246 242 234/ 0.7)
+    ),
+    url(../images/dina-seafood-1.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+.name {
+  float: left;
+  vertical-align: bottom;
+}
+.main-head {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #274eba;
+}
+.name h1 {
+  font-size: 112px;
+}
+.welcome {
+  float: right;
+  font-family: "Raleway", sans-serif;
+}
+.welcome .main-text {
+  color: rgb(31, 53, 113);
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 4.75rem;
+  line-height: 41px;
+}
+.text-underline {
+  text-transform: uppercase;
+  color: #274eba;
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #274eba;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+/* ---------------------------- End Home ---------------------------------------- */
+
+/* ---------------------------- Start About ---------------------------------------- */
+.about {
+  background-color: #f6f2ea;
+  padding-block: 50px;
+  font-family: "Raleway", sans-serif;
+
+}
+.about .details {
+  float: left;
+  width: 50%;
+}
+.about .history {
+  float: right;
+  width: 45%;
+}
+.about p {
+  margin-bottom: 40px;
+  color: #1f3571;
+}
+.history h2{
+    font-size: 4rem;
+    margin-top: 0;
+}
+.about .images{
+    margin-top: 60px;
+}
+.about .images div{
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+}
+.about img{
+    width: 50%;
+}
+
+/* ---------------------------- End About ---------------------------------------- */
+
+.gallery-item {
+  background-color: tomato;
+  width: 25%;
+  float: left;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.menu {
+  text-align: center;
+  background-color: #f5f1e9;
+  padding: 50px 0;
+}
+
+.menu-header span {
+  color: #274eba;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+}
+
+.menu-header h2 {
+  color: #274eba;
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+}
+
+.menu-item {
+  width: 33.33%;
+  float: left;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.menu-item h3 {
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #274eba;
+}
+
+.menu-item p {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f3571;
+}
+
+.menu-item span {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #ea2a3d;
+}
